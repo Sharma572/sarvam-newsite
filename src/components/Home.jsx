@@ -1,7 +1,7 @@
-import React from 'react'
-import Award from './Award/Award'
-import Counter from './Counter/Counter'
-import Footer from './Footer/Footer'
+import React from 'react';
+import Award from './Award/Award';
+import Counter from './Counter/Counter';
+import Footer from './Footer/Footer';
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
     <Counter />
     <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
