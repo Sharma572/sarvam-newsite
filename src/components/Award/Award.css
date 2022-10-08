@@ -1,0 +1,21 @@
+.carousel-wrapper{
+    margin-bottom: 150px;
+}
+.award__cardContainer{
+    height: 250px;
+    cursor: pointer;
+}
+.award__img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.award__img:hover {
+    transform: scale(1.1);
+}
+.award__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
