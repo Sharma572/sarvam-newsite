@@ -528,6 +528,9 @@ ol {
 	padding-bottom: 50px;
 }
 
+.hero__item {
+ background-image: url(./assets/img/hero-image/website022.jpg);
+}
 .hero.hero-normal {
 	padding-bottom: 30px;
 }
@@ -574,7 +577,6 @@ ol {
 	right: 18px;
 	top: 9px;
 	content: "3";
-	font-family: "ElegantIcons";
 	font-size: 18px;
 	color: #ffffff;
 }

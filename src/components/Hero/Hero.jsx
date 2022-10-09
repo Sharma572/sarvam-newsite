@@ -1,4 +1,5 @@
 import React from 'react'
+import hero_img from '../../assets/img/hero-image/website022.jpg';
 
 export default function Hero() {
   return (
@@ -13,17 +14,14 @@ export default function Hero() {
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">Head Protection</a></li>
+                            <li><a href="#">Eye Protection</a></li>
+                            <li><a href="#">Hand Protection</a></li>
+                            <li><a href="#">Feet Protection</a></li>             
+                            <li><a href="#">Fire Protection</a></li>
+                            <li><a href="#">Road Safety</a></li>
+                            <li><a href="#">General Protection</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -44,15 +42,15 @@ export default function Hero() {
                                 <i className="fa fa-phone"></i>
                             </div>
                             <div className="hero__search__phone__text">
-                                <h5>+65 11.188.888</h5>
+                                <h5>044-4555 2227</h5>
                                 <span>support 24/7 time</span>
                             </div>
                         </div>
                     </div>
-                    <div className="hero__item set-bg" data-setbg="">
+                    <div className="hero__item set-bg" data-setbg={hero_img}>
                         <div className="hero__text">
-                            <span>FRUIT FRESH</span>
-                            <h2>Vegetable <br />100% Organic</h2>
+                            <span>Sarvam Safety Equipment</span>
+                            <h2></h2>
                             <p>Free Pickup and Delivery Available</p>
                             <a href="#" className="primary-btn">SHOP NOW</a>
                         </div>
