@@ -54,7 +54,7 @@ const Counter = () => {
     
       <div className="backgroundimg">
         <p className="vision-text1">
-          SUCCESS IS NOT FINAL;FAILURE IS NOT A FATAL: IT IS THE COURAGE TO
+          SUCCESS IS NOT FINAL; FAILURE IS NOT A FATAL: IT IS THE COURAGE TO
           CONTINUE THAT COUNTS.
         </p>
         <div className="client">

@@ -4,9 +4,8 @@ export const Box = styled.div`
   background-color: #95c12b;
   width: 100%;
   color: white;
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
+  text-align:center;
+ 
 `;
 
 export const Container = styled.div`
@@ -14,13 +13,13 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 100px auto 0;
-  /* background: red; */
+  
 `;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 `;
 
 export const Row = styled.div`

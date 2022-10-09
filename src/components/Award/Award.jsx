@@ -11,7 +11,7 @@ const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 }
+  // { width: 1200, itemsToShow: 4 }
 ];
 
 const images = [
@@ -28,9 +28,6 @@ const images = [
         imgPath: award4
       },
       {
-        imgPath: award2
-      },
-      {
         imgPath: award1
       },
       {
@@ -38,6 +35,9 @@ const images = [
       },
       {
         imgPath: award3
+      },
+      {
+        imgPath: award4
       },
   ];
 function Award() {
@@ -55,18 +55,20 @@ function Award() {
 
   return (
     <>
+    <div className="counter__container">
      <div className="award__text">
      <h1>Wall Of Fame</h1>
           <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
      </div>
       <div className="carousel-wrapper">
-        <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
+        <Carousel itemsToScroll={3}  breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
           {images.map((item,indx) => (
             <Item key={indx}><div className="award__cardContainer">
                 <img className="award__img" src={item.imgPath} alt={indx} />
                 </div></Item>
           ))}
         </Carousel>
+      </div>
       </div>
     </>
   );
