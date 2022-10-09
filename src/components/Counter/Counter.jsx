@@ -11,7 +11,7 @@ const Counter = () => {
   const { ref, inView } = useInView({
     threshold: 0,
   });
-  console.log(inView);
+  // console.log(inView);
   useEffect(() => {
     if (inView === true) {
       let interval = setInterval(() => {

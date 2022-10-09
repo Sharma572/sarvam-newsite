@@ -4,6 +4,7 @@ import Counter from './Counter/Counter';
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import Navbar from './Navbar/Navbar';
+import { Testimonials } from './Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Navbar />
     <Hero />
     <Award />
+   <Testimonials />
     <Counter />
     <Footer />
     </>
