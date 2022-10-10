@@ -1,0 +1,8 @@
+.about-tittle h1{
+    color: var(--bg-darkcolor);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+}
