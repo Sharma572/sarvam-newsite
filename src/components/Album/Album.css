@@ -1,0 +1,57 @@
+
+  .quoteTeam > p {
+text-align: center;
+    font-size: 23px;
+   padding-bottom: 25px;
+    color: black;
+  }
+  
+  .headingTeam {
+    margin: 5px 40px;
+  }
+  .albumTeam {
+    padding: 25px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    column-gap: 25px;
+    row-gap: 25px;
+  }
+  
+  .imageTeam {
+    position: relative;
+  }
+  .layerTeam {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    opacity: 100%;
+    letter-spacing: 3px;
+    font-size: larger;
+  }
+  .layerTeam >h3{
+    color: #95c12b;
+    padding-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 1000px){
+   .albumTeam{
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+   }
+   .layerTeam >h3{
+    font-size: 2rem;
+   }
+   .headingTeam{
+    margin: 20px 4px;
+   }
+   
+  }

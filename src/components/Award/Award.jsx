@@ -49,7 +49,7 @@ function Award() {
           <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
      </div>
       <div className="carousel-wrapper">
-        <Carousel itemsToScroll={3}  breakPoints={breakPoints} showArrows={false} infiniteLoop={true} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
+        <Carousel itemsToScroll={3}  breakPoints={breakPoints}  infiniteLoop={true} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
           {images.map((item,indx) => (
             <Item key={indx}><div className="award__cardContainer">
                 <img className="award__img" src={item.imgPath} alt={indx} />

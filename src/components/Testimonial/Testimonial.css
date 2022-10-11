@@ -1,3 +1,6 @@
+.testimonial__container{
+  background-color: #95c12b;
+}
 .Testimonial__MainHeading{
     display: flex;
     justify-content: center;
@@ -5,6 +8,8 @@
 }
 .Testimonial__MainHeading>h1{
     font-size: 40px;
+    margin-top: 20px;
+    color: #fff;
 }
 
 .carousel-root {
@@ -15,8 +20,8 @@
   }
   
   .carousel .slide {
-    background: #fff !important;
-    color: black;
+    background: transparent !important;
+    color: #fff;
     height: 100%;
   }
   
@@ -26,7 +31,7 @@
   }
   
   .myCarousel {
-    background: #fafafa;
+    background: transparent !important;
     margin-top: -6%;
     width: 74%;
     margin-left: auto;
@@ -35,7 +40,6 @@
     padding-bottom: 8%;
     padding-left: 5%;
     padding-right: 5%;
-    border: 1px solid #ddd;
     height: 326px;
   }
   
@@ -46,7 +50,7 @@
   }
   
   .myCarousel h3 {
-    color: #222;
+    color: #fff;
     font-weight: 100;
     letter-spacing: 0.2px;
     margin: 12px auto;
@@ -60,14 +64,14 @@
     margin: 15px auto ;
     padding-top: 0;
     font-weight: 500;
-    color: #787878;
+    color: #fff;
     font-size: 14px;
   }
   
   .myCarousel p {
     font-weight: 100 !important;
     line-height: 40px !important;
-    color: #222;
+    color: #fff;
     font-size: 1.6rem;
     font-family: sans-serif;
     max-height: 67px;
@@ -75,7 +79,7 @@
   
   .myCarousel p:before {
     content: "“";
-    color: #aaa;
+    color: #fff;
     font-size: 56px;
     font-family: monospace;
     font-weight: 100;
@@ -83,7 +87,7 @@
   
   .myCarousel p:after {
     content: "”";
-    color: #aaa;
+    color: #fff;
     font-size: 56px;
     font-family: monospace;
     font-weight: 100;
@@ -116,7 +120,7 @@
   
     .myCarousel p:after , .myCarousel p::before{
       font-size: 36px;
-      color: #95c12b;
+      color: #fff;
     }
 
     .carousel.carousel-slider .control-arrow {
@@ -132,16 +136,16 @@
       padding-bottom: 12.5%;
       padding-left: 5%;
       padding-right: 5%;
-      border: 1px solid #ddd;
       height: 269px;
     }
     .myCarousel >p{
       font-size: 22px;
     }
-    .Testimonial__MainHeading>h1{
+    .Testimonial__MainHeading >h1{
         font-size: 26px;
         padding: 15px 3px;
         text-align: center;
+        color: #fff !important;
     }
   
     .carousel .slide img {
