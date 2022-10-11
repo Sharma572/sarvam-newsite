@@ -76,7 +76,7 @@
   .myCarousel p:before {
     content: "“";
     color: #aaa;
-    font-size: 26px;
+    font-size: 56px;
     font-family: monospace;
     font-weight: 100;
   }
@@ -84,10 +84,10 @@
   .myCarousel p:after {
     content: "”";
     color: #aaa;
-    font-size: 26px;
+    font-size: 56px;
     font-family: monospace;
     font-weight: 100;
-    line-height: 0;
+    line-height:40px;
   }
   
   .carousel .control-dots .dot {
@@ -114,6 +114,11 @@
       margin: auto !important;
     }
   
+    .myCarousel p:after , .myCarousel p::before{
+      font-size: 36px;
+      color: #95c12b;
+    }
+
     .carousel.carousel-slider .control-arrow {
       display: none !important;
     }
@@ -129,6 +134,9 @@
       padding-right: 5%;
       border: 1px solid #ddd;
       height: 269px;
+    }
+    .myCarousel >p{
+      font-size: 22px;
     }
     .Testimonial__MainHeading>h1{
         font-size: 26px;
