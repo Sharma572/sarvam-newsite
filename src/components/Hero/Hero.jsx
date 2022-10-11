@@ -21,7 +21,6 @@ export default function Hero() {
                             <li><a href="#">Fire Protection</a></li>
                             <li><a href="#">Road Safety</a></li>
                             <li><a href="#">General Protection</a></li>
-
                         </ul>
                     </div>
                 </div>

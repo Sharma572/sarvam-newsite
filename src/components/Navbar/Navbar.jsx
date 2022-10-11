@@ -110,8 +110,8 @@ export default function Navbar() {
                     <nav className="header__menu">
                         <ul>
                             <li className="active"><a>Home</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>Pages</a>
+                            <li><a>About Us</a></li>
+                            <li><a>Products</a>
                                 <ul className="header__menu__dropdown">
                                     <li><a>Shop Details</a></li>
                                     <li><a>Shoping Cart</a></li>
@@ -119,7 +119,7 @@ export default function Navbar() {
                                     <li><a>Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a>Blog</a></li>
+                            <li><a>Bussiness Partners</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </nav>
