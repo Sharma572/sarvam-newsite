@@ -36,10 +36,12 @@
 @media only screen and (max-width: 600px) {
    .backgroundimg{
     height: 470px;
+    margin: 50px auto;
    }
 
     .bg-img {
       width: 100%;
+     
     }
     .client{
      display: grid;

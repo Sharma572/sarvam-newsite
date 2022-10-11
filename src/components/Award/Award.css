@@ -1,5 +1,5 @@
 .carousel-wrapper{
-    margin-bottom: 150px;
+    margin-bottom: 2.3rem;
 }
 .award__cardContainer{
     height: 250px;
@@ -13,12 +13,7 @@
 .award__img:hover {
     transform: scale(1.1);
 }
-.award__text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .counter__container{
     margin: 10px 25px;
@@ -46,4 +41,22 @@
 }
 .sc-iBPRYJ{
     display: none !important;
+}
+.Award__MainHeading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Award__MainHeading>h1{
+    font-size: 40px;
+}
+@media only screen and (max-width: 934px){
+    .Award__MainHeading>h1{
+        font-size: 26px;
+        padding: 15px 3px;
+        text-align: center;
+    }
+  
 }

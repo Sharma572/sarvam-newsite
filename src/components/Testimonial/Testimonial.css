@@ -140,4 +140,8 @@
       width: 24% !important;
       border-radius: 50%;
     }
+    .carousel .control-dots{
+     display: none;
+    }
+   
   }

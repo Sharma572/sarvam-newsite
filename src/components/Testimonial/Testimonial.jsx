@@ -12,7 +12,7 @@ export const Testimonials =()=> {
             </h1>
         </div>
       <Carousel
-        showArrows={true}
+        showArrows={false}
         infiniteLoop={true}
         swipeable={true}
         showThumbs={false}

@@ -8,7 +8,7 @@ import award4 from '../../assets/img/wall of frame/award4.png'
 
 
 const breakPoints = [
-  { width: 1, itemsToShow: 1 },
+  { width: 1, itemsToShow: 1 ,itemsToScroll: 1,pagination:false },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3 },
   // { width: 1200, itemsToShow: 4 }
@@ -41,27 +41,15 @@ const images = [
       },
   ];
 function Award() {
-//   const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
-
-//   const addItem = () => {
-//     const nextItem = Math.max(1, items.length + 1);
-//     setItems([...items, nextItem]);
-//   };
-
-//   const removeItem = () => {
-//     const endRange = Math.max(0, items.length - 1);
-//     setItems(items.slice(0, endRange));
-//   };
-
   return (
     <>
     <div className="counter__container">
-     <div className="award__text">
+     <div className="Award__MainHeading">
      <h1>Wall Of Fame</h1>
           <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
      </div>
       <div className="carousel-wrapper">
-        <Carousel itemsToScroll={3}  breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
+        <Carousel itemsToScroll={3}  breakPoints={breakPoints} showArrows={false} infiniteLoop={true} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
           {images.map((item,indx) => (
             <Item key={indx}><div className="award__cardContainer">
                 <img className="award__img" src={item.imgPath} alt={indx} />
