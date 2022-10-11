@@ -2,8 +2,9 @@
     margin-bottom: 2.3rem;
 }
 .award__cardContainer{
-    height: 250px;
+    height: 280px;
     cursor: pointer;
+    width: 230px;
 }
 .award__img{
     width: 100%;
@@ -16,9 +17,7 @@
 
 .sc-gKsewC{
     background-color: #95c12b !important;
-}
-.sc-gKsewC .cJeRRR .rec-dot_active{
-    box-shadow: 0 0 1px 3px rgb(0, 0, 0) !important;
+    box-shadow:none;
 }
 .counter__container{
     margin: 10px 25px;

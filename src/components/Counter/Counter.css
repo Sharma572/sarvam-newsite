@@ -1,7 +1,7 @@
 .backgroundimg{
     border: 2px solid #95c12b;
     width: 95%;
-    margin: 10px auto;
+    margin: 10px auto 50px;
     display: flex;
     height: 350px;
     flex-direction: column;
@@ -41,7 +41,7 @@
 
     .bg-img {
       width: 100%;
-     
+    
     }
     .client{
      display: grid;
