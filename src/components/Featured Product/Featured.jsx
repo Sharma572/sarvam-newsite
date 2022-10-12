@@ -1,142 +1,161 @@
 import React from 'react'
 
+// product Images
+import img1 from "../../assets/img/head protection/561.png";
+import img2 from "../../assets/img/head protection/karam-safety-helmet-pn521.png";
+import img3 from "../../assets/img/head protection/Untitled-1.png";
+import img4 from "../../assets/img/shoe/Adjacent.png";
+import img5 from "../../assets/img/shoe/AGILE CT.png";
+import img6 from "../../assets/img/shoe/BLITZ.png";
+import img7 from "../../assets/img/shoe/KARAM FS 210.png";
+import img8 from "../../assets/img/shoe/Ketone.png";
+
+
 export default function Featured() {
   return (
     <div>
-            <section class="featured spad">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title">
+            <section classNameName="featured spad">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title">
                                 <h2>Featured Product</h2>
                             </div>
-                            <div class="featured__controls">
+                            <div className="featured__controls">
                                 <ul>
-                                    <li class="active" data-filter="*">All</li>
-                                    <li data-filter=".oranges">Hand Protection</li>
-                                    <li data-filter=".fresh-meat">Hand Protection</li>
-                                    <li data-filter=".vegetables">Hand Protection</li>
-                                    <li data-filter=".fastfood">Hand Protection</li>
+                                    <li className="active" data-filter="*">All</li>
+                                    <li data-filter=".oranges">Head Protection</li>
+                                    <li data-filter=".fresh-meat">Head Protection</li>
+                                    <li data-filter=".vegetables">Feet Protection</li>
+                                    <li data-filter=".fastfood">Fire Protection</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="row featured__filter">
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    <div className="row featured__filter">
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" >
+                                <img src={img1} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" >
+                                    <img src={img2} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" >
+                                <img src={img3} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" >
+                                <img src={img4} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" data-setbg={img1}>
+                                <img src={img5} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+                                <img src={img6} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                                <img src={img7} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
-                            <div class="featured__item">
-                                <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                                    <ul class="featured__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <div className="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                            <div className="featured__item">
+                                <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
+                                <img src={img8} alt="" />
+                                    <ul className="featured__item__pic__hover">
+                                        <li><a href="#"><i className="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
-                                <div class="featured__item__text">
+                                <div className="featured__item__text">
                                     <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
                                     <h5>$30.00</h5>
                                 </div>

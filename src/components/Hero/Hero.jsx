@@ -11,7 +11,7 @@ export default function Hero() {
                     <div className="hero__categories">
                         <div className="hero__categories__all">
                             <i className="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>All Products</span>
                         </div>
                         <ul>
                             <li><a href="#">Head Protection</a></li>
@@ -30,7 +30,7 @@ export default function Hero() {
                             <form action="#">
                                 <div className="hero__search__categories">
                                     All Categories
-                                    <span className="arrow_carrot-down"></span>
+                                    <span className="fa fa-chevron-down"></span>
                                 </div>
                                 <input type="text" placeholder="What do yo u need?" />
                                 <button type="submit" className="site-btn">SEARCH</button>
