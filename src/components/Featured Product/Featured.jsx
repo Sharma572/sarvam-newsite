@@ -44,8 +44,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">PN 521 Shelmet - Ratchet - IS Mark - White</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +60,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">PN 521 Shelmet - Ratchet - IS Mark - White</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">PN 521 Shelmet - Ratchet - IS Mark - White</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -92,8 +92,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Adjacent Safety Shoe - S.T. Grain Leather - DIP PU Sole - D.D ; D.C - Low Ankle</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -108,8 +108,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Adjacent Safety Shoe - S.T. Grain Leather - DIP PU Sole - D.D ; D.C - Low Ankle</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -124,8 +124,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Adjacent Safety Shoe - S.T. Grain Leather - DIP PU Sole - D.D ; D.C - Low Ankle</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -140,8 +140,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Adjacent Safety Shoe - S.T. Grain Leather - DIP PU Sole - D.D ; D.C - Low Ankle</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
@@ -156,8 +156,8 @@ export default function Featured() {
                                     </ul>
                                 </div>
                                 <div className="featured__item__text">
-                                    <h6><a href="#">Gloves Cotton Knitted - Colour: Dark Grey</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Adjacent Safety Shoe - S.T. Grain Leather - DIP PU Sole - D.D ; D.C - Low Ankle</a></h6>
+                                    <h5>Rs:1500</h5>
                                 </div>
                             </div>
                         </div>
