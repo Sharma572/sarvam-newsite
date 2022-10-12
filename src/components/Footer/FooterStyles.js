@@ -54,6 +54,7 @@ export const Icon = styled.i`
   font-size: 30px;
   display: flex;
   justify-content: space-between;
+  
 `;
 
 export const Social = styled.section`

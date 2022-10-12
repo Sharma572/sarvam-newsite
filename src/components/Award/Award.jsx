@@ -44,10 +44,17 @@ function Award() {
   return (
     <>
     <div className="counter__container">
-     <div className="Award__MainHeading">
-     <h1>Wall Of Fame</h1>
+    <div class="section-title">
+            <h2> Wall Of Fame</h2>
+        </div>
+            <p className="Award__para">All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
+    
+    {/* <div className="Award__MainHeading">
+            <h1>
+            Wall Of Fame
+            </h1>
           <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
-     </div>
+        </div> */}
       <div className="carousel-wrapper">
         <Carousel itemsToScroll={3}  breakPoints={breakPoints}  infiniteLoop={true} enableAutoPlay autoPlaySpeed={3000} enableSwipe="true" transitionMs="500">
           {images.map((item,indx) => (

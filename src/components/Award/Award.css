@@ -1,3 +1,10 @@
+
+.Award__para{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 25px;
+}
 .carousel-wrapper{
     margin-bottom: 2.3rem;
 }
@@ -16,20 +23,22 @@
 }
 
 .sc-gKsewC{
-    background-color: #95c12b !important;
+    background-color: #FFF !important;
     box-shadow:none;
+}
+.rec-dot_active{
+     box-shadow:none;
+     box-shadow: 0 0 1px 3px rgb(0 0 0) !important;
+    background-color: #95c12b !important;
 }
 .counter__container{
     margin: 10px 25px;
 }
 
-/* Next and previous */
 
-.rec.rec-arrow {
-    border-radius: 0;
-}
+
 /* round buttons on hover */
-.rec.rec-arrow:hover {
+.rec.rec-arrow {
     border-radius: 50%;
     background-color: #95c12b !important;
 }
@@ -55,10 +64,7 @@
     font-size: 40px;
 }
 @media only screen and (max-width: 934px){
-    .Award__MainHeading>h1{
-        font-size: 26px;
-        padding: 15px 3px;
-        text-align: center;
-    }
-  
+    .Award__para{
+    font-size: 1.2rem;
+ } 
 }

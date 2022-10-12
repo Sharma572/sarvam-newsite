@@ -7,7 +7,8 @@ Column,
 FooterLink,
 Heading,
 Icon,
-Social
+Social,
+socialLinks
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -46,12 +47,12 @@ return (
 
         <Social>
         <Heading>STAY CONNECTED</Heading>
-        <Icon><i class="fi fi-brands-instagram"></i>
-        <i class="fi fi-brands-youtube"></i>
-        <i class="fi fi-brands-linkedin"></i>
-        <i class="fi fi-brands-facebook"></i>
-        <i class="fi fi-brands-whatsapp"></i>
-        <i class="fi fi-brands-twitter"></i>
+        <Icon><i class="fi fi-brands-instagram" style={{color:'#f20163'}}></i>
+        <a href="https://www.youtube.com/watch?v=YoXTO60j91g" target="blank"><i class="fi fi-brands-youtube" style={{color:'red'}}></i></a> 
+        <a href="https://www.linkedin.com/company/sarvam-safety-equipment-pvt-ltd/"> <i class="fi fi-brands-linkedin" style={{color:'blue'}}></i></a>
+		<a href="https://www.linkedin.com/company/sarvam-safety-equipment-pvt-ltd/"> <i class="fi fi-brands-facebook" style={{color:'#0f89e7'}}></i></a>
+        <i class="fi fi-brands-whatsapp" style={{color:'#075950'}}></i>
+        <i class="fi fi-brands-twitter" style={{color:'#1c93e4'}}></i>
         </Icon>
 		</Social>
 		</Row>

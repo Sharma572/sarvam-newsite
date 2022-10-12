@@ -53,5 +53,7 @@ text-align: center;
    .headingTeam{
     margin: 20px 4px;
    }
-   
+   .quoteTeam >p{
+    font-size: 1.2rem;
+   }
   }
